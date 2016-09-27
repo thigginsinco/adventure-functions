@@ -44,7 +44,7 @@ function random(arr) {
 	return arr[Math.floor(Math.random() * arr.length)];
 }
 
-var output = "Armed with only their " +
+var output = "Armed with only their " + 
 	random(weapons) +
 	" our " +
 	heroGender +
@@ -57,6 +57,7 @@ var output = "Armed with only their " +
 
 		document.getElementById("adventure").innerText = output;
 }	
+		newgame()
 		document.getElementById("new_adventure").onclick = newgame;
 
 /*
